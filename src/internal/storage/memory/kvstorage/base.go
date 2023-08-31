@@ -23,31 +23,6 @@ type memoryStorage struct {
 	db MemoryDB
 }
 
-func (m memoryStorage) Set(key string, value any) any {
-	//TODO implement me
-	panic("implement me")
-}
-
-func (m memoryStorage) Get(key string) (any, error) {
-	//TODO implement me
-	panic("implement me")
-}
-
-func (m memoryStorage) Update(key string, value any) (any, error) {
-	//TODO implement me
-	panic("implement me")
-}
-
-func (m memoryStorage) Delete(key string) error {
-	//TODO implement me
-	panic("implement me")
-}
-
-func (m memoryStorage) List() MemoryDB {
-	//TODO implement me
-	panic("implement me")
-}
-
 // StorageOption represents storage option type.
 type StorageOption func(*memoryStorage)
 
