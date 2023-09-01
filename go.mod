@@ -1,3 +1,3 @@
-module github.com/seymasa/kvstore/src/internal/storage/memory/kvstorage
+module github.com/seymasa/kvstore
 
 go 1.21.0
