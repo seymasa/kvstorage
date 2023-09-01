@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/seymasa/kvstore/src/internal/kverror"
-	"github.com/seymasa/kvstore/src/internal/service/kvstoreservice"
+	"github.com/seymasa/kvstorage/src/internal/kverror"
+	"github.com/seymasa/kvstorage/src/internal/service/kvstoreservice"
 )
 
 func (h *kvstoreHandler) Update(w http.ResponseWriter, r *http.Request) {
